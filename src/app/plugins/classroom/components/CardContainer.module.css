@@ -1,0 +1,108 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--dashboard);
+  border: 2px solid var(--blue-100);
+  box-sizing: border-box;
+  width: 130px;
+  height: 124px;
+}
+.div,
+.richardKCampion {
+  position: absolute;
+  top: 66px;
+  left: 21px;
+  line-height: 25.2px;
+  font-weight: 500;
+}
+.div {
+  top: 5px;
+  left: 8px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+.callIcon {
+  position: relative;
+  width: 11px;
+  height: 11px;
+}
+.callWrapper {
+  background-color: var(--color-lightseagreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.callWrapper,
+.messageWrapper,
+.videoWrapper {
+  border-radius: 3.13px;
+  padding: 4.375px;
+}
+.messageWrapper {
+  background-color: var(--color-yellowgreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.videoWrapper {
+  background-color: var(--color-slateblue-100);
+}
+.frameParent,
+.smsWrapper,
+.videoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.smsWrapper {
+  border-radius: 3.13px;
+  background-color: var(--color-orange-100);
+  padding: 4.375px;
+}
+.frameParent {
+  position: absolute;
+  top: 96px;
+  left: 10px;
+  gap: var(--gap-3xs);
+}
+.uimmultiplyIcon {
+  position: absolute;
+  top: 10px;
+  left: 108px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.groupItem {
+  position: absolute;
+  top: 15px;
+  left: 41px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: relative;
+  width: 130px;
+  height: 124px;
+}
+.groupParent {
+  position: absolute;
+  top: 474px;
+  left: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--black-100);
+  font-family: var(--font-roboto);
+}

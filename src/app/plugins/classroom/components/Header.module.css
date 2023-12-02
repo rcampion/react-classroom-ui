@@ -1,0 +1,104 @@
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupChild {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--black-20);
+  box-sizing: border-box;
+  width: 1185px;
+  height: 78px;
+}
+.groupItem {
+  border-radius: var(--br-3xs);
+  background-color: var(--dashboard);
+  width: 646px;
+  height: 57px;
+}
+.searchNormalIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 43px;
+}
+.searchWrapper {
+  position: relative;
+  width: 50px;
+  height: 43px;
+}
+.searchNormalParent {
+  position: absolute;
+  top: 7px;
+  left: 47.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 646px;
+  height: 57px;
+}
+.groupWrapper {
+  position: relative;
+  width: 646px;
+  height: 57px;
+}
+.materialSymbolsmarkUnreadCIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.materialSymbolsmarkUnreadCParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameChild {
+  position: relative;
+  width: 67px;
+  height: 37px;
+}
+.frameParent {
+  gap: var(--gap-28xl);
+}
+.frameParent,
+.frameWrapper,
+.groupParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupParent {
+  position: absolute;
+  top: 11px;
+  left: 32px;
+  gap: var(--gap-262xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 255px;
+  width: 1185px;
+  height: 78px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-roboto);
+}

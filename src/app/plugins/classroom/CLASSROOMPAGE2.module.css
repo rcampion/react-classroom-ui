@@ -1,0 +1,154 @@
+.classroomPage2Child {
+  position: absolute;
+  height: 100%;
+  width: 17.71%;
+  top: 0;
+  right: 82.29%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  border-right: 1px solid var(--black-20);
+  box-sizing: border-box;
+}
+.zdslogicLogo188x192pngIcon {
+  position: absolute;
+  height: 6.45%;
+  width: 4.58%;
+  top: 1.95%;
+  right: 93.19%;
+  bottom: 91.6%;
+  left: 2.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.classroomPage2Item {
+  position: absolute;
+  height: 0.1%;
+  width: 15.28%;
+  top: 61.08%;
+  right: 83.78%;
+  bottom: 38.82%;
+  left: 0.94%;
+  border-top: 1px solid var(--black-20);
+  box-sizing: border-box;
+}
+.copyIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button,
+.button1,
+.buttonBase {
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+}
+.buttonBase {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.button,
+.button1 {
+  position: absolute;
+  top: 243px;
+  left: 910px;
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button1 {
+  left: 954px;
+}
+.classroomPage2Inner {
+  position: absolute;
+  height: 92.38%;
+  width: 5%;
+  top: 7.62%;
+  right: -0.07%;
+  bottom: 0;
+  left: 95.07%;
+  background-color: #fdfdfd;
+  border-left: 1px solid var(--black-20);
+  box-sizing: border-box;
+}
+.frameChild {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.groupParent {
+  position: absolute;
+  top: 88px;
+  left: 1388px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 98px;
+  left: 511px;
+  border-radius: 5px;
+  border: 2px solid var(--black-75);
+  box-sizing: border-box;
+  width: 602px;
+  height: 344px;
+}
+.whiteboard {
+  position: relative;
+  line-height: 25.2px;
+  font-weight: 600;
+}
+.uimmultiplyIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.maximize2Parent,
+.whiteboardParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.maximize2Parent {
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.whiteboardParent {
+  position: absolute;
+  top: 118px;
+  left: 531px;
+  align-items: center;
+  gap: 390px;
+}
+.lineDiv {
+  position: absolute;
+  top: 457.5px;
+  left: 254.5px;
+  border-top: 1px solid var(--black-25);
+  box-sizing: border-box;
+  width: 1116px;
+  height: 1px;
+}
+.classroomPage2 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black-100);
+  font-family: var(--font-roboto);
+}

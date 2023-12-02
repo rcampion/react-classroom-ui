@@ -1,0 +1,150 @@
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-slateblue-100);
+}
+.homeOutlineIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.title {
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+.homeOutlineParent {
+  position: absolute;
+  height: 54.55%;
+  width: 35.62%;
+  top: 22.73%;
+  right: 54.34%;
+  bottom: 22.73%;
+  left: 10.05%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.rectangleParent {
+  position: absolute;
+  height: 9.24%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 90.76%;
+  left: 0;
+  color: var(--blue-100);
+}
+.informationOutlineParent {
+  position: absolute;
+  top: 68px;
+  left: 18px;
+}
+.appsParent,
+.informationOutlineParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.vectorIcon {
+  position: relative;
+  width: 11px;
+  height: 6.5px;
+}
+.frameParent {
+  position: absolute;
+  top: 116px;
+  left: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-91xl);
+}
+.accountOutlineParent,
+.emailOutlineParent,
+.frameContainer,
+.frameGroup,
+.mapMarkerOutlineParent,
+.projectorScreenOutlineParent,
+.weatherSunnyParent {
+  position: absolute;
+  top: 164px;
+  left: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.emailOutlineParent,
+.frameContainer,
+.frameGroup,
+.mapMarkerOutlineParent,
+.projectorScreenOutlineParent,
+.weatherSunnyParent {
+  top: 212px;
+}
+.frameContainer,
+.frameGroup,
+.mapMarkerOutlineParent,
+.projectorScreenOutlineParent,
+.weatherSunnyParent {
+  top: 260px;
+  gap: var(--gap-60xl);
+}
+.frameContainer,
+.mapMarkerOutlineParent,
+.projectorScreenOutlineParent,
+.weatherSunnyParent {
+  top: 308px;
+  gap: var(--gap-3xs);
+}
+.frameContainer,
+.mapMarkerOutlineParent,
+.weatherSunnyParent {
+  top: 356px;
+  gap: var(--gap-51xl);
+}
+.mapMarkerOutlineParent,
+.weatherSunnyParent {
+  height: 5.04%;
+  width: 30.59%;
+  top: 94.96%;
+  right: 61.19%;
+  bottom: 0;
+  left: 8.22%;
+  gap: var(--gap-3xs);
+}
+.weatherSunnyParent {
+  width: 38.36%;
+  top: 84.87%;
+  right: 51.6%;
+  bottom: 10.08%;
+  left: 10.05%;
+}
+.groupParent {
+  position: absolute;
+  height: 46.48%;
+  width: 15.21%;
+  top: 11.13%;
+  right: 83.82%;
+  bottom: 42.38%;
+  left: 0.97%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--black-75);
+  font-family: var(--font-roboto);
+}

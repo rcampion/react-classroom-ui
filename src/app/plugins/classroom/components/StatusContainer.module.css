@@ -1,0 +1,81 @@
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-darkslategray-200);
+  width: 224px;
+  height: 344px;
+}
+.groupItem {
+  top: 83px;
+  left: 8px;
+  background-color: var(--white);
+  width: 208px;
+  height: 253px;
+}
+.benson {
+  position: relative;
+  line-height: 24px;
+}
+.bensonWrapper,
+.joshWrapper {
+  border-radius: var(--br-10xs);
+  background-color: var(--blue-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-3xs);
+}
+.joshWrapper {
+  background-color: var(--yellow);
+}
+.frameParent {
+  position: absolute;
+  top: 95px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.status {
+  position: relative;
+  line-height: 43px;
+  font-weight: 600;
+}
+.studentsWithConnection {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  line-height: 24px;
+  font-family: var(--font-roboto);
+  color: var(--black-75);
+  margin-top: -8px;
+}
+.statusParent {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  color: var(--black-100);
+  font-family: var(--font-inter);
+}
+.rectangleParent {
+  position: absolute;
+  top: 98px;
+  left: 275px;
+  width: 224px;
+  height: 344px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--white);
+  font-family: var(--font-roboto);
+}

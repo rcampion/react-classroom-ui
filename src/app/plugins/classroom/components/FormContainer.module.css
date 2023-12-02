@@ -1,0 +1,52 @@
+.groupChild,
+.groupItem {
+  position: absolute;
+  border-radius: var(--br-10xs);
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-200);
+  width: 234px;
+  height: 369px;
+}
+.groupItem {
+  top: 62px;
+  left: 4px;
+  width: 226px;
+  height: 227px;
+  object-fit: cover;
+}
+.classTeacher {
+  position: absolute;
+  top: 20px;
+  left: 54px;
+  line-height: 25.2px;
+  font-weight: 600;
+}
+.frameChild {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.groupParent {
+  position: absolute;
+  top: 309px;
+  left: 43px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.rectangleParent {
+  position: absolute;
+  top: 549px;
+  left: 695px;
+  width: 234px;
+  height: 369px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black-100);
+  font-family: var(--font-roboto);
+}

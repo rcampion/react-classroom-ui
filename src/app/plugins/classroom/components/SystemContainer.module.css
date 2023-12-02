@@ -1,0 +1,53 @@
+.cogOutlineIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.title {
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+.cogOutlineParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.vectorIcon {
+  position: relative;
+  width: 11px;
+  height: 6.5px;
+}
+.frameContainer,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-74xl);
+}
+.frameContainer,
+.frameParent {
+  gap: var(--gap-25xl);
+}
+.frameParent {
+  position: absolute;
+  height: 16.41%;
+  width: 13.26%;
+  top: 65.43%;
+  right: 84.51%;
+  bottom: 18.16%;
+  left: 2.22%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--black-75);
+  font-family: var(--font-roboto);
+}
